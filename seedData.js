@@ -47,7 +47,9 @@ const seedItem = [
     price: 6.50,
     vegetarian: false
   }
-]
+];
+
+console.log(seedMenu[2].title);
 
 module.exports = {
   seedRestaurant,
